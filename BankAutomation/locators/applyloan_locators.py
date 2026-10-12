@@ -1,0 +1,13 @@
+class ApplyLoanLocators:
+    APPLY_LOAN = "//a[@href='/bank/apply-loan']"
+    APPLY_FOR_LOAN = "(//div[@class='flex items-center gap-2']//button)[2]"
+    LOAN_TYPE = "//button[@id='loan-type-trigger']"
+    PICK_UP_LOAN_TYPE = "(//div//div[text()='Home'])[1]"
+    AMOUNT = "//input[@id='loan-amount']"
+    TERM_LEN = "//button[@id='loan-term-trigger']"
+    PICK_UP_TERM_LEN = "(//div//div[text()='24'])[1]"
+    INTEREST = "//input[@id='loan-interest-rate']"
+    DIS_ACC = "//button[@id='loan-account-trigger']"
+    PICK_UP_DIS_ACC = "(//div//div[text()='Everyday Checking'])[1]"
+    PURPOSE = "//textarea[@name='loan_purpose_field']"
+    REVIEW_THE_APP = "//button[@type='submit']"
